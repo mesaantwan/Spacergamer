@@ -1,7 +1,7 @@
 // ============= VOLCANOPLANET (Procedural - No External Files) =============
 // Generated from GLB - 20 mesh(es)
 
-const VolcanoplanetGroup = new THREE.Group();
+var VolcanoplanetGroup = new THREE.Group();
 
 // Mesh 0: Cylinder002
 const Volcanoplanet_mesh0_positions = new Float32Array([-3.174,1.299,-0.511,-3.174,1.299,-0.511,-3.175,1.279,-0.408,-3.175,1.279,-0.408,-3.022,1.291,-0.482,-3.022,1.291,-0.482,-3.06,1.273,-0.386,-3.06,1.273,-0.386,-2.892,1.253,-0.407,-2.892,1.253,-0.407,-2.962,1.244,-0.329,-2.962,1.244,-0.329,-2.804,1.19,-0.296,-2.804,1.19,-0.296,-2.896,1.196,-0.246,-2.896,1.196,-0.246,-2.772,1.11,-0.166,-2.772,1.11,-0.166,-2.872,1.137,-0.148,-2.872,1.137,-0.148,-2.8,1.028,-0.038,-2.8,1.028,-0.038,-2.893,1.074,-0.051,-2.893,1.074,-0.051,-2.884,0.954,0.07,-2.884,0.954,0.07,-2.956,1.019,0.03,-2.956,1.019,0.03,-3.012,0.901,0.14,-3.012,0.901,0.14,-3.053,0.979,0.083,-3.053,0.979,0.083,-3.163,0.876,0.163,-3.163,0.876,0.163,-3.167,0.96,0.1,-3.167,0.96,0.1,-3.316,0.883,0.134,-3.316,0.883,0.134,-3.282,0.965,0.078,-3.282,0.965,0.078,-3.446,0.922,0.058,-3.446,0.922,0.058,-3.38,0.994,0.021,-3.38,0.994,0.021,-3.533,0.985,-0.053,-3.533,0.985,-0.053,-3.446,1.042,-0.062,-3.446,1.042,-0.062,-3.566,1.064,-0.182,-3.566,1.064,-0.182,-3.47,1.102,-0.16,-3.47,1.102,-0.16,-3.538,1.147,-0.31,-3.538,1.147,-0.31,-3.449,1.164,-0.257,-3.449,1.164,-0.257,-3.453,1.22,-0.418,-3.453,1.22,-0.418,-3.386,1.22,-0.338,-3.386,1.22,-0.338,-3.326,1.274,-0.488,-3.326,1.274,-0.488,-3.289,1.26,-0.391,-3.289,1.26,-0.391,-3.175,1.279,-0.41,-3.175,1.279,-0.41,-3.177,1.281,-0.321,-3.177,1.281,-0.321,-3.06,1.274,-0.388,-3.06,1.274,-0.388,-3.09,1.277,-0.305,-3.09,1.277,-0.305,-2.961,1.245,-0.331,-2.961,1.245,-0.331,-3.016,1.255,-0.262,-3.016,1.255,-0.262,-2.895,1.197,-0.247,-2.895,1.197,-0.247,-2.966,1.218,-0.198,-2.966,1.218,-0.198,-2.87,1.137,-0.148,-2.87,1.137,-0.148,-2.947,1.173,-0.124,-2.947,1.173,-0.124,-2.892,1.074,-0.051,-2.892,1.074,-0.051,-2.963,1.126,-0.051,-2.963,1.126,-0.051,-2.955,1.018,0.03,-2.955,1.018,0.03,-3.011,1.084,0.01,-3.011,1.084,0.01,-3.052,0.978,0.084,-3.052,0.978,0.084,-3.084,1.053,0.051,-3.084,1.053,0.051,-3.167,0.959,0.101,-3.167,0.959,0.101,-3.171,1.039,0.064,-3.171,1.039,0.064,-3.282,0.965,0.079,-3.282,0.965,0.079,-3.258,1.043,0.047,-3.258,1.043,0.047,-3.381,0.994,0.022,-3.381,0.994,0.022,-3.332,1.065,0.004,-3.332,1.065,0.004,-3.447,1.042,-0.062,-3.447,1.042,-0.062,-3.382,1.102,-0.059,-3.382,1.102,-0.059,-3.472,1.102,-0.161,-3.472,1.102,-0.161,-3.401,1.147,-0.133,-3.401,1.147,-0.133,-3.451,1.164,-0.258,-3.451,1.164,-0.258,-3.385,1.194,-0.207,-3.385,1.194,-0.207,-3.387,1.22,-0.339,-3.387,1.22,-0.339,-3.337,1.236,-0.268,-3.337,1.236,-0.268,-3.29,1.261,-0.393,-3.29,1.261,-0.393,-3.264,1.266,-0.308,-3.264,1.266,-0.308,-3.177,1.281,-0.326,-3.177,1.281,-0.326,-3.179,1.297,-0.249,-3.179,1.297,-0.249,-3.088,1.277,-0.309,-3.088,1.277,-0.309,-3.113,1.294,-0.236,-3.113,1.294,-0.236,-3.013,1.254,-0.265,-3.013,1.254,-0.265,-3.056,1.277,-0.203,-3.056,1.277,-0.203,-2.962,1.217,-0.201,-2.962,1.217,-0.201,-3.017,1.249,-0.154,-3.017,1.249,-0.154,-2.943,1.171,-0.126,-2.943,1.171,-0.126,-3.003,1.214,-0.098,-3.003,1.214,-0.098,-2.959,1.123,-0.051,-2.959,1.123,-0.051,-3.015,1.178,-0.041,-3.015,1.178,-0.041,-3.008,1.08,0.012,-3.008,1.08,0.012,-3.052,1.146,0.006,-3.052,1.146,0.006,-3.082,1.049,0.053,-3.082,1.049,0.053,-3.108,1.122,0.037,-3.108,1.122,0.037,-3.171,1.035,0.066,-3.171,1.035,0.066,-3.175,1.111,0.047,-3.175,1.111,0.047,-3.259,1.039,0.049,-3.259,1.039,0.049,-3.241,1.115,0.034,-3.241,1.115,0.034,-3.335,1.061,0.005,-3.335,1.061,0.005,-3.299,1.131,0.001,-3.299,1.131,0.001,-3.386,1.098,-0.059,-3.386,1.098,-0.059,-3.337,1.159,-0.048,-3.337,1.159,-0.048,-3.405,1.144,-0.135,-3.405,1.144,-0.135,-3.351,1.194,-0.105,-3.351,1.194,-0.105,-3.388,1.193,-0.209,-3.388,1.193,-0.209,-3.339,1.23,-0.161,-3.339,1.23,-0.161,-3.339,1.235,-0.272,-3.339,1.235,-0.272,-3.302,1.263,-0.208,-3.302,1.263,-0.208,-3.265,1.266,-0.313,-3.265,1.266,-0.313,-3.246,1.286,-0.239,-3.246,1.286,-0.239,-3.179,1.296,-0.25,-3.179,1.296,-0.25,-3.183,1.336,-0.174,-3.183,1.336,-0.174,-3.112,1.293,-0.238,-3.112,1.293,-0.238,-3.133,1.333,-0.165,-3.133,1.333,-0.165,-3.055,1.276,-0.204,-3.055,1.276,-0.204,-3.089,1.321,-0.14,-3.089,1.321,-0.14,-3.016,1.248,-0.155,-3.016,1.248,-0.155,-3.06,1.3,-0.103,-3.06,1.3,-0.103,-3.002,1.213,-0.098,-3.002,1.213,-0.098,-3.05,1.273,-0.06,-3.05,1.273,-0.06,-3.014,1.177,-0.042,-3.014,1.177,-0.042,-3.059,1.246,-0.017,-3.059,1.246,-0.017,-3.052,1.144,0.005,-3.052,1.144,0.005,-3.087,1.221,0.019,-3.087,1.221,0.019,-3.108,1.121,0.037,-3.108,1.121,0.037,-3.129,1.204,0.042,-3.129,1.204,0.042,-3.175,1.11,0.046,-3.175,1.11,0.046,-3.18,1.195,0.049,-3.18,1.195,0.049,-3.242,1.113,0.034,-3.242,1.113,0.034,-3.23,1.198,0.04,-3.23,1.198,0.04,-3.299,1.13,0.001,-3.299,1.13,0.001,-3.273,1.21,0.015,-3.273,1.21,0.015,-3.338,1.158,-0.048,-3.338,1.158,-0.048,-3.303,1.232,-0.022,-3.303,1.232,-0.022,-3.352,1.193,-0.105,-3.352,1.193,-0.105,-3.313,1.258,-0.065,-3.313,1.258,-0.065,-3.339,1.229,-0.162,-3.339,1.229,-0.162,-3.304,1.285,-0.108,-3.304,1.285,-0.108,-3.302,1.261,-0.209,-3.302,1.261,-0.209,-3.276,1.31,-0.143,-3.276,1.31,-0.143,-3.246,1.285,-0.24,-3.246,1.285,-0.24,-3.234,1.328,-0.167,-3.234,1.328,-0.167,-3.183,1.335,-0.174,-3.183,1.335,-0.174,-3.189,1.41,-0.089,-3.189,1.41,-0.089,-3.132,1.333,-0.165,-3.132,1.333,-0.165,-3.151,1.408,-0.082,-3.151,1.408,-0.082,-3.089,1.32,-0.14,-3.089,1.32,-0.14,-3.118,1.399,-0.063,-3.118,1.399,-0.063,-3.059,1.299,-0.103,-3.059,1.299,-0.103,-3.096,1.383,-0.035,-3.096,1.383,-0.035,-3.049,1.273,-0.06,-3.049,1.273,-0.06,-3.088,1.363,-0.003,-3.088,1.363,-0.003,-3.058,1.245,-0.018,-3.058,1.245,-0.018,-3.095,1.342,0.029,-3.095,1.342,0.029,-3.086,1.221,0.018,-3.086,1.221,0.018,-3.116,1.324,0.056,-3.116,1.324,0.056,-3.129,1.203,0.041,-3.129,1.203,0.041,-3.148,1.311,0.073,-3.148,1.311,0.073,-3.18,1.195,0.049,-3.18,1.195,0.049,-3.187,1.305,0.079,-3.187,1.305,0.079,-3.231,1.198,0.039,-3.231,1.198,0.039,-3.225,1.306,0.072,-3.225,1.306,0.072,-3.274,1.21,0.014,-3.274,1.21,0.014,-3.258,1.316,0.053,-3.258,1.316,0.053,-3.303,1.231,-0.023,-3.303,1.231,-0.023,-3.28,1.332,0.025,-3.28,1.332,0.025,-3.314,1.257,-0.065,-3.314,1.257,-0.065,-3.288,1.351,-0.007,-3.288,1.351,-0.007,-3.305,1.285,-0.108,-3.305,1.285,-0.108,-3.281,1.372,-0.039,-3.281,1.372,-0.039,-3.277,1.309,-0.143,-3.277,1.309,-0.143,-3.26,1.39,-0.066,-3.26,1.39,-0.066,-3.234,1.327,-0.167,-3.234,1.327,-0.167,-3.227,1.404,-0.083,-3.227,1.404,-0.083,-3.189,1.409,-0.091,-3.189,1.409,-0.091,-3.198,1.524,0.011,-3.198,1.524,0.011,-3.15,1.407,-0.084,-3.15,1.407,-0.084,-3.169,1.523,0.016,-3.169,1.523,0.016,-3.117,1.397,-0.065,-3.117,1.397,-0.065,-3.144,1.515,0.031,-3.144,1.515,0.031,-3.095,1.381,-0.037,-3.095,1.381,-0.037,-3.127,1.503,0.052,-3.127,1.503,0.052,-3.086,1.361,-0.004,-3.086,1.361,-0.004,-3.12,1.488,0.076,-3.12,1.488,0.076,-3.094,1.34,0.028,-3.094,1.34,0.028,-3.126,1.473,0.101,-3.126,1.473,0.101,-3.115,1.322,0.055,-3.115,1.322,0.055,-3.142,1.459,0.121,-3.142,1.459,0.121,-3.148,1.308,0.073,-3.148,1.308,0.073,-3.167,1.448,0.135,-3.167,1.448,0.135,-3.186,1.302,0.079,-3.186,1.302,0.079,-3.196,1.444,0.139,-3.196,1.444,0.139,-3.225,1.304,0.072,-3.225,1.304,0.072,-3.225,1.445,0.133,-3.225,1.445,0.133,-3.258,1.314,0.053,-3.258,1.314,0.053,-3.25,1.452,0.119,-3.25,1.452,0.119,-3.281,1.33,0.025,-3.281,1.33,0.025,-3.267,1.464,0.098,-3.267,1.464,0.098,-3.289,1.35,-0.008,-3.289,1.35,-0.008,-3.273,1.479,0.073,-3.273,1.479,0.073,-3.282,1.37,-0.04,-3.282,1.37,-0.04,-3.268,1.495,0.049,-3.268,1.495,0.049,-3.26,1.389,-0.067,-3.26,1.389,-0.067,-3.252,1.509,0.028,-3.252,1.509,0.028,-3.228,1.402,-0.085,-3.228,1.402,-0.085,-3.227,1.519,0.015,-3.227,1.519,0.015,-3.198,1.523,0.011,-3.198,1.523,0.011,-3.211,1.699,0.143,-3.211,1.699,0.143,-3.169,1.522,0.016,-3.169,1.522,0.016,-3.189,1.698,0.147,-3.189,1.698,0.147,-3.144,1.515,0.031,-3.144,1.515,0.031,-3.17,1.692,0.158,-3.17,1.692,0.158,-3.127,1.503,0.052,-3.127,1.503,0.052,-3.157,1.683,0.174,-3.157,1.683,0.174,-3.121,1.488,0.076,-3.121,1.488,0.076,-3.153,1.672,0.192,-3.153,1.672,0.192,-3.126,1.472,0.1,-3.126,1.472,0.1,-3.157,1.66,0.21,-3.157,1.66,0.21,-3.142,1.458,0.121,-3.142,1.458,0.121,-3.169,1.65,0.226,-3.169,1.65,0.226,-3.167,1.448,0.134,-3.167,1.448,0.134,-3.187,1.642,0.236,-3.187,1.642,0.236,-3.196,1.443,0.138,-3.196,1.443,0.138,-3.209,1.638,0.239,-3.209,1.638,0.239,-3.225,1.445,0.133,-3.225,1.445,0.133,-3.231,1.639,0.235,-3.231,1.639,0.235,-3.25,1.452,0.119,-3.25,1.452,0.119,-3.25,1.645,0.224,-3.25,1.645,0.224,-3.267,1.464,0.097,-3.267,1.464,0.097,-3.263,1.654,0.208,-3.263,1.654,0.208,-3.273,1.479,0.073,-3.273,1.479,0.073,-3.267,1.665,0.19,-3.267,1.665,0.19,-3.267,1.495,0.049,-3.267,1.495,0.049,-3.263,1.677,0.171,-3.263,1.677,0.171,-3.251,1.509,0.028,-3.251,1.509,0.028,-3.251,1.687,0.156,-3.251,1.687,0.156,-3.227,1.519,0.015,-3.227,1.519,0.015,-3.233,1.695,0.146,-3.233,1.695,0.146,-3.211,1.697,0.142,-3.211,1.697,0.142,-3.226,1.903,0.289,-3.226,1.903,0.289,-3.189,1.696,0.147,-3.189,1.696,0.147,-3.209,1.903,0.292,-3.209,1.903,0.292,-3.17,1.691,0.157,-3.17,1.691,0.157,-3.195,1.899,0.3,-3.195,1.899,0.3,-3.158,1.682,0.173,-3.158,1.682,0.173,-3.186,1.892,0.311,-3.186,1.892,0.311,-3.153,1.671,0.191,-3.153,1.671,0.191,-3.182,1.883,0.325,-3.182,1.883,0.325,-3.157,1.659,0.209,-3.157,1.659,0.209,-3.185,1.875,0.339,-3.185,1.875,0.339,-3.169,1.649,0.225,-3.169,1.649,0.225,-3.194,1.867,0.35,-3.194,1.867,0.35,-3.187,1.641,0.235,-3.187,1.641,0.235,-3.208,1.861,0.358,-3.208,1.861,0.358,-3.209,1.637,0.238,-3.209,1.637,0.238,-3.224,1.858,0.36,-3.224,1.858,0.36,-3.231,1.638,0.234,-3.231,1.638,0.234,-3.241,1.859,0.357,-3.241,1.859,0.357,-3.249,1.644,0.223,-3.249,1.644,0.223,-3.255,1.863,0.349,-3.255,1.863,0.349,-3.262,1.653,0.207,-3.262,1.653,0.207,-3.264,1.87,0.337,-3.264,1.87,0.337,-3.267,1.664,0.189,-3.267,1.664,0.189,-3.268,1.878,0.324,-3.268,1.878,0.324,-3.263,1.676,0.171,-3.263,1.676,0.171,-3.265,1.887,0.31,-3.265,1.887,0.31,-3.251,1.686,0.156,-3.251,1.686,0.156,-3.256,1.895,0.298,-3.256,1.895,0.298,-3.232,1.694,0.146,-3.232,1.694,0.146,-3.242,1.901,0.291,-3.242,1.901,0.291]);
@@ -10,10 +10,13 @@ const Volcanoplanet_mesh0_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh0_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh0_positions, 3));
 Volcanoplanet_mesh0_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh0_indices, 1));
 Volcanoplanet_mesh0_geo.computeVertexNormals();
-const Volcanoplanet_mesh0_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh0_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh0 = new THREE.Mesh(Volcanoplanet_mesh0_geo, Volcanoplanet_mesh0_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh0);
@@ -26,10 +29,13 @@ const Volcanoplanet_mesh1_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh1_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh1_positions, 3));
 Volcanoplanet_mesh1_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh1_indices, 1));
 Volcanoplanet_mesh1_geo.computeVertexNormals();
-const Volcanoplanet_mesh1_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh1_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh1 = new THREE.Mesh(Volcanoplanet_mesh1_geo, Volcanoplanet_mesh1_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh1);
@@ -42,10 +48,13 @@ const Volcanoplanet_mesh2_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh2_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh2_positions, 3));
 Volcanoplanet_mesh2_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh2_indices, 1));
 Volcanoplanet_mesh2_geo.computeVertexNormals();
-const Volcanoplanet_mesh2_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh2_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh2 = new THREE.Mesh(Volcanoplanet_mesh2_geo, Volcanoplanet_mesh2_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh2);
@@ -58,10 +67,13 @@ const Volcanoplanet_mesh3_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh3_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh3_positions, 3));
 Volcanoplanet_mesh3_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh3_indices, 1));
 Volcanoplanet_mesh3_geo.computeVertexNormals();
-const Volcanoplanet_mesh3_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh3_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh3 = new THREE.Mesh(Volcanoplanet_mesh3_geo, Volcanoplanet_mesh3_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh3);
@@ -74,10 +86,13 @@ const Volcanoplanet_mesh4_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh4_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh4_positions, 3));
 Volcanoplanet_mesh4_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh4_indices, 1));
 Volcanoplanet_mesh4_geo.computeVertexNormals();
-const Volcanoplanet_mesh4_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh4_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh4 = new THREE.Mesh(Volcanoplanet_mesh4_geo, Volcanoplanet_mesh4_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh4);
@@ -90,10 +105,13 @@ const Volcanoplanet_mesh5_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh5_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh5_positions, 3));
 Volcanoplanet_mesh5_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh5_indices, 1));
 Volcanoplanet_mesh5_geo.computeVertexNormals();
-const Volcanoplanet_mesh5_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh5_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh5 = new THREE.Mesh(Volcanoplanet_mesh5_geo, Volcanoplanet_mesh5_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh5);
@@ -106,10 +124,13 @@ const Volcanoplanet_mesh6_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh6_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh6_positions, 3));
 Volcanoplanet_mesh6_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh6_indices, 1));
 Volcanoplanet_mesh6_geo.computeVertexNormals();
-const Volcanoplanet_mesh6_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh6_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh6 = new THREE.Mesh(Volcanoplanet_mesh6_geo, Volcanoplanet_mesh6_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh6);
@@ -122,10 +143,13 @@ const Volcanoplanet_mesh7_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh7_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh7_positions, 3));
 Volcanoplanet_mesh7_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh7_indices, 1));
 Volcanoplanet_mesh7_geo.computeVertexNormals();
-const Volcanoplanet_mesh7_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh7_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh7 = new THREE.Mesh(Volcanoplanet_mesh7_geo, Volcanoplanet_mesh7_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh7);
@@ -138,10 +162,13 @@ const Volcanoplanet_mesh8_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh8_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh8_positions, 3));
 Volcanoplanet_mesh8_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh8_indices, 1));
 Volcanoplanet_mesh8_geo.computeVertexNormals();
-const Volcanoplanet_mesh8_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh8_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh8 = new THREE.Mesh(Volcanoplanet_mesh8_geo, Volcanoplanet_mesh8_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh8);
@@ -154,10 +181,13 @@ const Volcanoplanet_mesh9_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh9_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh9_positions, 3));
 Volcanoplanet_mesh9_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh9_indices, 1));
 Volcanoplanet_mesh9_geo.computeVertexNormals();
-const Volcanoplanet_mesh9_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh9_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh9 = new THREE.Mesh(Volcanoplanet_mesh9_geo, Volcanoplanet_mesh9_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh9);
@@ -170,10 +200,13 @@ const Volcanoplanet_mesh10_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh10_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh10_positions, 3));
 Volcanoplanet_mesh10_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh10_indices, 1));
 Volcanoplanet_mesh10_geo.computeVertexNormals();
-const Volcanoplanet_mesh10_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh10_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh10 = new THREE.Mesh(Volcanoplanet_mesh10_geo, Volcanoplanet_mesh10_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh10);
@@ -186,10 +219,13 @@ const Volcanoplanet_mesh11_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh11_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh11_positions, 3));
 Volcanoplanet_mesh11_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh11_indices, 1));
 Volcanoplanet_mesh11_geo.computeVertexNormals();
-const Volcanoplanet_mesh11_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh11_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh11 = new THREE.Mesh(Volcanoplanet_mesh11_geo, Volcanoplanet_mesh11_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh11);
@@ -202,10 +238,13 @@ const Volcanoplanet_mesh12_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh12_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh12_positions, 3));
 Volcanoplanet_mesh12_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh12_indices, 1));
 Volcanoplanet_mesh12_geo.computeVertexNormals();
-const Volcanoplanet_mesh12_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh12_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh12 = new THREE.Mesh(Volcanoplanet_mesh12_geo, Volcanoplanet_mesh12_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh12);
@@ -218,10 +257,13 @@ const Volcanoplanet_mesh13_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh13_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh13_positions, 3));
 Volcanoplanet_mesh13_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh13_indices, 1));
 Volcanoplanet_mesh13_geo.computeVertexNormals();
-const Volcanoplanet_mesh13_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh13_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh13 = new THREE.Mesh(Volcanoplanet_mesh13_geo, Volcanoplanet_mesh13_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh13);
@@ -234,10 +276,13 @@ const Volcanoplanet_mesh14_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh14_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh14_positions, 3));
 Volcanoplanet_mesh14_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh14_indices, 1));
 Volcanoplanet_mesh14_geo.computeVertexNormals();
-const Volcanoplanet_mesh14_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh14_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh14 = new THREE.Mesh(Volcanoplanet_mesh14_geo, Volcanoplanet_mesh14_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh14);
@@ -250,10 +295,13 @@ const Volcanoplanet_mesh15_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh15_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh15_positions, 3));
 Volcanoplanet_mesh15_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh15_indices, 1));
 Volcanoplanet_mesh15_geo.computeVertexNormals();
-const Volcanoplanet_mesh15_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh15_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh15 = new THREE.Mesh(Volcanoplanet_mesh15_geo, Volcanoplanet_mesh15_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh15);
@@ -266,10 +314,13 @@ const Volcanoplanet_mesh16_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh16_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh16_positions, 3));
 Volcanoplanet_mesh16_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh16_indices, 1));
 Volcanoplanet_mesh16_geo.computeVertexNormals();
-const Volcanoplanet_mesh16_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh16_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh16 = new THREE.Mesh(Volcanoplanet_mesh16_geo, Volcanoplanet_mesh16_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh16);
@@ -282,10 +333,13 @@ const Volcanoplanet_mesh17_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh17_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh17_positions, 3));
 Volcanoplanet_mesh17_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh17_indices, 1));
 Volcanoplanet_mesh17_geo.computeVertexNormals();
-const Volcanoplanet_mesh17_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh17_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh17 = new THREE.Mesh(Volcanoplanet_mesh17_geo, Volcanoplanet_mesh17_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh17);
@@ -298,10 +352,13 @@ const Volcanoplanet_mesh18_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh18_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh18_positions, 3));
 Volcanoplanet_mesh18_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh18_indices, 1));
 Volcanoplanet_mesh18_geo.computeVertexNormals();
-const Volcanoplanet_mesh18_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh18_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh18 = new THREE.Mesh(Volcanoplanet_mesh18_geo, Volcanoplanet_mesh18_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh18);
@@ -314,10 +371,13 @@ const Volcanoplanet_mesh19_geo = new THREE.BufferGeometry();
 Volcanoplanet_mesh19_geo.setAttribute('position', new THREE.BufferAttribute(Volcanoplanet_mesh19_positions, 3));
 Volcanoplanet_mesh19_geo.setIndex(new THREE.BufferAttribute(Volcanoplanet_mesh19_indices, 1));
 Volcanoplanet_mesh19_geo.computeVertexNormals();
-const Volcanoplanet_mesh19_mat = new THREE.MeshStandardMaterial({
-    color: 0x402b36,
-    roughness: 0.4,
-    metalness: 0.2
+const Volcanoplanet_mesh19_mat = new THREE.MeshPhysicalMaterial({
+    color: 0x8866aa,
+    transparent: true,
+    opacity: 0.85,
+    roughness: 0.15,
+    metalness: 0.1,
+    clearcoat: 0.3
 });
 const Volcanoplanet_mesh19 = new THREE.Mesh(Volcanoplanet_mesh19_geo, Volcanoplanet_mesh19_mat);
 VolcanoplanetGroup.add(Volcanoplanet_mesh19);
